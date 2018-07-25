@@ -3,6 +3,9 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
+# for favicon
+<link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}"
+
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://yuantinghsieh.github.io"
 baseurl: ""
@@ -14,10 +17,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Yuan-Ting Hsieh
+title: Yuan-Ting Hsieh 謝沅廷
 
 # Short description of your site
-description: My personal website
+description: Personal website of Yuan-Ting Hsieh
 
 # --- Navigation bar options --- #
 
@@ -29,6 +32,10 @@ navbar-links:
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
+
+# If you want to have a favion iin the title bar of the page,
+# then you can specify the following parameter
+favicon: "/img/yuan.ico"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -64,7 +71,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Yuan-Ting Hsieh
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -107,7 +114,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-69906999-1"
 
 # Google Tag Manager ID
 #gtm: ""
