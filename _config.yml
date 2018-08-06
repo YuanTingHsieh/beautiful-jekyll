@@ -26,12 +26,18 @@ description: Personal website of Yuan-Ting Hsieh
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: ""
   About Me: "aboutme"
+  Projects:
+    - Image Completion: ""
+    - Real Steel: ""
+  Resume / CV: "resume"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
+#    - GitHub Pages: "https://pages.github.com/"
+    - Photos: "https://www.flickr.com/people/158757569@N02/"
+
 
 # If you want to have a favion iin the title bar of the page,
 # then you can specify the following parameter
@@ -80,12 +86,12 @@ author:
 social-network-links:
   rss: true
   email: "yuantinghsieh@gmail.com"
-  facebook: Yuan-Ting Hsieh
+  facebook: YuanTingHsieh666
   github: YuanTingHsieh
 #  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
-  linkedin: yuantinghsieh
+  linkedin: yuan-ting-hsieh
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -106,7 +112,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
