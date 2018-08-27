@@ -23,14 +23,14 @@
             <div class="navlinks-children">
               {% for childlink in link[1] %}
                 {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
+                  {% include navbarlink.html link=linkparts type="out" %}
                 {% endfor %}
               {% endfor %}
             </div>
           </li>
         {% else %}
           <li>
-            {% include navbarlink.html link=link %}
+            {% include navbarlink.html link=link type="in" %}
           </li>
         {% endif %}
         {% endfor %}

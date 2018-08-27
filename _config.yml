@@ -29,14 +29,14 @@ navbar-links:
   Blog: ""
   About Me: "aboutme"
   Projects:
-    - Image Completion: ""
-    - Real Steel: ""
+    - Image Completion: "https://yuantinghsieh.github.io/Image_Completion/"
+    - Real Steel Boxing Game: "https://www.youtube.com/watch?v=jziXI6g9NkU&t=3s"
   Resume / CV: "resume"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+#  Resources:
+#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
 #    - GitHub Pages: "https://pages.github.com/"
-    - Photos: "https://www.flickr.com/people/158757569@N02/"
+#    - Photos: "https://www.flickr.com/people/158757569@N02/"
 
 
 # If you want to have a favion iin the title bar of the page,
